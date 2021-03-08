@@ -1,2 +1,3 @@
-def leap_year(number):
-    pass
+def leap_year(year):
+    if year % 4 == 0:
+        return "Leap year"
