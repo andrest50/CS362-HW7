@@ -12,7 +12,7 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fizzbuzz.fizzbuzz(60), "FizzBuzz")
 
     def test_other_number(self):
-        self.assertEqual(fizzbuzz.fizzbuzz(87), "87")
+        self.assertEqual(fizzbuzz.fizzbuzz(89), "89")
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
